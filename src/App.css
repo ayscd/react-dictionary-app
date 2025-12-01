@@ -1,6 +1,44 @@
-.logo {
-    max-width: 400px;
-    display: block;
-    margin: 20px 20px;
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
 
+.header {
+    margin: 50px 0 50px 20px;
+    text-align: left;
+    color: rgba(19, 2, 70);
+}
+
+.logo {
+    display: block;
+    width: 40px;
+    color: rgba(19, 2, 70);
+    opacity: 0.4;
+}
+
+.main {
+    margin-left: 20px;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: rgb(19, 2, 70);
+}
+
+.author-link, .git-link, .author-link:hover a, a .git-link:hover, a .author-link:visited, a .git-link:visited {
+    color: rgb(19, 2, 70);
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(19, 2, 70);
 }
