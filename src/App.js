@@ -9,7 +9,7 @@ function App() {
         <header>
           <div className="header">
             <span><img src={logo} className="logo img-fluid" alt="logo" /></span>
-            <span><h1>LEXICON DICTIONARY</h1></span>
+            <span><h1>LEXICON</h1></span>
           </div>
         </header>
         <main className="main">
