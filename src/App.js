@@ -15,7 +15,7 @@ function App() {
         <main className="main">
           <Dictionary />
         </main>
-        <footer className="footer">This app was developed by <a href="https://www.linkedin.com/in/ayeskaasc" className="author-link" target="_blank" rel="noreferrer">Ayeska</a>. You can see it on <a href="https://github.com/ayscd/react-dictionary-app" className="git-link" target="_blank" rel="noreferrer">Github</a>.</footer>
+        <footer className="footer">This app was developed by <strong><a href="https://www.linkedin.com/in/ayeskaasc" className="author-link" target="_blank" rel="noreferrer">Ayeska</a></strong>. You can see it on <strong><a href="https://github.com/ayscd/react-dictionary-app" className="git-link" target="_blank" rel="noreferrer">Github</a></strong>.</footer>
       </div>
     </div>
   );

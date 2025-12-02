@@ -1,4 +1,32 @@
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "Bellota Text", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(19, 2, 70, 0.8);
+}
+
+p {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-family: "Bellota Text", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(19, 2, 70, 0.8);
+}
+
+.meaning-hr {
+    width: 100%;
+    text-align: left;
+    opacity: 0.2;
+    margin: 15px 0 15px 0;
+}
+
+.example {
+    font-family: "Bellota Text", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(19, 2, 70, 0.8);
+    margin-bottom: 0;
 }

@@ -1,0 +1,32 @@
+h2 {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+    color: rgb(19, 2, 70);
+}
+
+section {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 60px;
+    width: 60%;
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 4px;
+}
+
+.fonetics {
+    font-family: "Baskervville", serif;
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.5;
+    color: rgb(19, 2, 70);
+}
+
+.word-hr {
+    width: 60px;
+    text-align: left;
+    opacity: 0.4;
+    margin: 15px 0 15px 0;
+}

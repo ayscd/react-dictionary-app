@@ -1,0 +1,13 @@
+li, h4 {
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 11px;
+    opacity: 0.6;
+}
+
+.Synonyms ul {
+    margin: 0;
+    padding: 0;
+}

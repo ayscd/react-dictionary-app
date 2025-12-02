@@ -7,16 +7,14 @@ export default function Meaning(props) {
 
     return(
         <div className="Meaning">
-            <header><h3>{props.meaning.partOfSpeech}</h3></header>
+            <h3>{props.meaning.partOfSpeech}</h3>
             <main><p>{props.meaning.definition};</p></main>
             {exampleSentence && (
-                <div className="example">
-                    <hr/>
-                    <em>"{exampleSentence}"</em>
+                <div>
+                    <hr className="meaning-hr"/>
+                    <em className="example">"{exampleSentence}"</em>
                 </div>
             )}
-            <br />
-            <br />
             <Synonyms synonyms={props.meaning.synonyms}/>
         </div>
     )
